@@ -1,0 +1,81 @@
+/* Navbar CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.row {
+	margin: 0!important;
+	/*margin-left: 0!important;*/
+}
+
+
+
+.wrapper {
+	height: auto;
+	min-height: 100%;
+}
+
+.wrapper .navbar {
+	padding: 1rem 4rem;
+	background-color: #665f58!important;
+}
+
+.wrapper .navbar .navbar-brand {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #e0e2e5;
+}
+.wrapper .navbar .navbar-brand:hover {
+	color: #fff;
+}
+
+.wrapper .navbar #navbarNav .navbar-nav .nav-item a {
+	color: #e0e2e5;
+	font-size: 1.2rem;
+	text-transform: capitalize;
+	padding: .4rem 1rem;
+}
+
+.wrapper .navbar #navbarNav .navbar-nav .nav-item a:hover {
+	color: #fff;
+}
+
+.wrapper .navbar .navbar-nav .active a{
+	color: #cdea9a!important;
+	font-weight: bold;
+}
+
+/*Desktop*/
+@media only screen and (min-width: 992px) {
+	
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 991px) {
+	.wrapper .navbar {
+		padding: 1rem 2rem;
+	}
+
+	.wrapper .navbar .navbar-brand {
+		margin: 0 auto!important;
+		padding-left: 3.5rem; 
+	}
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+	.wrapper .navbar {
+		padding: 1rem 1rem;
+	}
+	
+	.wrapper .navbar .navbar-brand {
+		margin: 0 auto!important;
+		padding-left: 3.5rem;
+	}
+}
+
+
+

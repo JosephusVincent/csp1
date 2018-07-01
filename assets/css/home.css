@@ -1,0 +1,75 @@
+/* Home CSS */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+
+.wrapper .home-demo {
+	padding: 0rem;
+}
+
+.wrapper .home-demo .demo-con {
+	padding: 0;
+}
+
+
+/* Centering Carousel Caption*/
+.wrapper .home-demo .demo-con .carousel-inner .carousel-caption {
+	transform: translateY(-50%);
+	bottom: 0;
+	top: 50%;
+}
+
+
+.wrapper .home-demo .demo-con .carousel-inner .carousel-caption h2 {
+	font-size: 4rem;
+	text-transform: uppercase;
+	margin-top: 15%;
+}
+
+.wrapper .home-demo .demo-con .carousel-inner .carousel-caption p {
+	font-size: 2rem;
+	/*margin-top:50%;*/
+}
+
+
+/*Desktop*/
+@media only screen and (min-width: 961px) {
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.wrapper .home-demo .demo-con .carousel-inner .carousel-caption h2 {
+		font-size: 2rem;
+		text-transform: uppercase;
+		margin-top: 10%;
+	}
+
+	.wrapper .home-demo .demo-con .carousel-inner .carousel-caption p {
+		font-size: 1.2rem;
+		margin-top: 0%;
+	}
+
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+	.wrapper .home-demo .demo-con .carousel-inner .carousel-caption h2 {
+		font-size: 1rem;
+		text-transform: uppercase;
+		margin-top: 10%;
+	}
+
+	.wrapper .home-demo .demo-con .carousel-inner .carousel-caption p {
+		font-size: .6rem;
+		/*margin-top: 0%;*/
+	}
+}
