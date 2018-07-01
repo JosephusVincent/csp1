@@ -1,0 +1,73 @@
+/* Landing Page CSS */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+.intro {
+	height: 100%;
+	width: 100%;
+	background: url(../img/rawpixel.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	display: table;
+	top: 0;
+}
+
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding-bottom: 20%;
+}
+
+.content h1 {
+	font-family: 'Black Han Sans', sans-serif;
+	color: black;
+	font-size: 450%;
+	text-shadow: 3px 3px #098fa8;
+}
+
+/* Footer */
+#main-footer {
+	background-color: #724c3d;
+	color: #ece7e7;
+	padding: 23px 0;
+	text-align: center;
+}
+
+#main-footer p {
+	margin-bottom: .5rem;
+	font-size: .9rem;
+}
+
+#main-footer small {
+	font-size: .75rem;
+}
+
+
+
+@media only screen and (max-width: 756px) {
+	.content h1 {
+		font-size: 250%;
+	}
+	.btn {
+		font-size: 110%;
+		padding: 7px 15px;
+	}
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+	#main-footer {
+		font-size: 12px;
+		padding: 15px 0;
+	}
+}
+
+
+
