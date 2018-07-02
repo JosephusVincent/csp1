@@ -1,0 +1,132 @@
+/* Needs Page CSS */
+
+
+
+.wrapper .demo-needs {
+	min-height: 85vh;
+	height: auto;
+	background-color: #474a4f;
+	color: white;
+	text-align: center;
+}
+
+.wrapper .demo-needs .needs-elem-nav .title-row {
+	padding: 2rem 0rem;
+}
+
+/* ALL card nav style */
+.wrapper .demo-needs .needs-elem-nav .elem-nav-row .card {
+	width: 12rem;
+	margin: 0 auto;
+}
+
+.wrapper .demo-needs .needs-elem-nav .elem-nav-row .card .card-text {
+	text-transform: capitalize;
+	font-size: 1.5rem;	
+}
+
+.wrapper .demo-needs .needs-elem-nav .elem-nav-row .card .fas, 
+.wrapper .demo-needs .needs-elem-nav .elem-nav-row .card .fab {
+	color: white;
+	font-size: 5.3rem;
+	padding: 3rem 0rem;
+}
+
+.wrapper .demo-needs .needs-elem-nav .elem-nav-row a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Water-nav */
+.wrapper .demo-needs .needs-elem-nav .elem-nav-row .water-nav {
+	background-color: #0095cc;
+}
+
+/* Fire-nav */
+.wrapper .demo-needs .needs-elem-nav .elem-nav-row .fire-nav {
+	background-color: #7f282a;
+}
+
+/* Food-nav */
+.wrapper .demo-needs .needs-elem-nav .elem-nav-row .food-nav {
+	background-color: #2ca551;
+}
+
+/* Shelter-nav */
+.wrapper .demo-needs .needs-elem-nav .elem-nav-row .shelter-nav {
+	background-color: #826b4c;
+}
+
+
+
+/* Water Section */
+.wrapper .water-section {
+	height: 100vh;
+	background-color: #0095cc;
+	display: table;
+}
+
+.wrapper .water-section .water-con {
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #0095cc;
+
+}
+
+.wrapper .water-section .water-con .water-img {
+	text-align: center;
+}
+
+.wrapper .water-section .water-con .water-img img{
+	height: 30rem;
+}
+
+.wrapper .elem-text h2,
+.wrapper .elem-text p {
+	color: white;
+	text-align: justify;
+}
+
+
+
+/* Fire Section */
+.wrapper .fire-section {
+	height: 100vh;
+	display: table;
+	background-color: #7f282a;
+}
+
+.wrapper .fire-section .fire-con {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.wrapper .fire-section .fire-con .fire-img {
+	text-align: center;
+}
+
+.wrapper .fire-section .fire-con .fire-img img{
+	height: 30rem;
+}
+
+
+
+
+
+
+
+
+/*Desktop*/
+@media only screen and (min-width: 961px) {
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+
+}

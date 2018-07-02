@@ -7,9 +7,6 @@
 }
 
 
-
-
-
 .wrapper .home-demo {
 	padding: 0rem;
 }
@@ -35,8 +32,80 @@
 
 .wrapper .home-demo .demo-con .carousel-inner .carousel-caption p {
 	font-size: 2rem;
-	/*margin-top:50%;*/
 }
+
+
+.wrapper .demo-carousel {
+	background-color: skyblue;
+	height: auto;
+}
+
+/* Demo-info Section */
+.wrapper .demo-info {
+	background-color: lightgreen;
+	height: 100vh;
+	background-color: #4c6182;
+	display: table;
+}
+
+
+.wrapper .demo-info .demo-lorem-con {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.wrapper .demo-info .demo-lorem-con .row .col-lorem h2,
+.wrapper .demo-info .demo-lorem-con .row .col-lorem p {
+	color: white;
+}
+
+.wrapper .demo-info .demo-lorem-con .row .col-lorem h2 {
+	font-size: 3rem;
+	text-align: center;
+}
+
+.wrapper .demo-info .demo-lorem-con .row .col-lorem p {
+	text-indent: 2rem;
+}
+
+
+
+/* sur-list Section */
+.wrapper .sur-list {
+	min-height: 100vh;
+	height: auto;
+	background: url(../img/jungle.jpg) 50% 50% repeat;
+	background-size: cover; 
+}
+
+
+.wrapper .sur-list .sur-list-con .sur-list-title .title-col h2 {
+	padding: 2rem 0rem;
+}
+
+.wrapper .sur-list .sur-list-con .sur-list-title .title-col h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+.wrapper .sur-list .sur-list-con .sur-expert-row .card {
+	margin: 0 auto;
+	width: 20rem;
+}
+
+.wrapper .sur-list .sur-list-con .sur-expert-row .sur-man .card  {
+	opacity: .9;
+}
+
+
+
+
+
+
+
 
 
 /*Desktop*/

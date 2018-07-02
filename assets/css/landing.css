@@ -31,22 +31,6 @@ html, body {
 	text-shadow: 3px 3px #098fa8;
 }
 
-/* Footer */
-#main-footer {
-	background-color: #724c3d;
-	color: #ece7e7;
-	padding: 23px 0;
-	text-align: center;
-}
-
-#main-footer p {
-	margin-bottom: .5rem;
-	font-size: .9rem;
-}
-
-#main-footer small {
-	font-size: .75rem;
-}
 
 
 
@@ -63,10 +47,7 @@ html, body {
 
 /*Mobile*/
 @media only screen and (max-width: 400px) {
-	#main-footer {
-		font-size: 12px;
-		padding: 15px 0;
-	}
+
 }
 
 
