@@ -1,0 +1,109 @@
+/* About CSS */
+
+
+/* About Demo Section */
+.wrapper .about-demo {
+	height: 90vh;
+	background-color: #484949;
+	display: table;
+}
+
+.wrapper .about-demo .about-demo-con {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.wrapper .about-demo .about-demo-con .demo-row .demo-text h1,
+.wrapper .about-demo .about-demo-con .demo-row .demo-text p {
+	color: white;
+}
+
+.wrapper .about-demo .about-demo-con .demo-row .demo-text h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.wrapper .about-demo .about-demo-con .demo-row .demo-text p {
+	text-indent: 3rem;
+	text-align: justify;
+}
+
+
+/* Contact or Visit Us Section */
+.wrapper .contact-visit {
+	min-height: 100vh;
+	height: auto;
+}
+
+.wrapper .contact-visit .cnt-vst-con  {
+	padding: 2rem 0rem;
+}
+
+/* Title Contact-Visit */
+.wrapper .contact-visit .cnt-vst-con .cnt-vst-tlt-row .cnt-vst-col {
+	padding: 0rem 0rem 1rem 0rem;
+}
+
+.wrapper .contact-visit .cnt-vst-con .cnt-vst-tlt-row .cnt-vst-col h2 {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+/* Contact Form */
+.wrapper .contact-visit .cnt-vst-con .cnt-vst-row {
+	padding: 1rem 0rem;
+}
+
+.wrapper .contact-visit .cnt-vst-con .cnt-vst-row .cnt-vst-form-col {
+	padding: 0rem 2rem;
+}
+
+
+/*Desktop*/
+@media only screen and (min-width: 961px) {
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+	/* About Demo Section */
+	.wrapper .about-demo .about-demo-con .demo-row .demo-img-col {
+		padding: 1.2rem 0rem 0rem 0rem;
+	}
+
+	.wrapper .about-demo .about-demo-con .demo-row .demo-text {
+		padding: 1rem 0rem;
+	}
+
+	.wrapper .about-demo .about-demo-con .demo-row .demo-text h1 {
+		font-size: 1.5rem;
+		padding: .3rem;
+	}
+
+	.wrapper .about-demo .about-demo-con .demo-row .demo-text p {
+		text-indent: 2rem;
+		font-size: .8rem;
+		line-height: 1.4rem;
+	}
+
+	/* Contact or Visit Us Section */
+	.wrapper .contact-visit .cnt-vst-con .cnt-vst-tlt-row .cnt-vst-col h2 {
+		font-size: 1.7rem;
+	}
+
+	/* Contact Form */
+	.wrapper .contact-visit .cnt-vst-con .cnt-vst-row {
+		padding: .7em 0rem;
+	}
+
+	.wrapper .contact-visit .cnt-vst-con .cnt-vst-row figure {
+		font-size: .7rem;
+	}
+
+}
+

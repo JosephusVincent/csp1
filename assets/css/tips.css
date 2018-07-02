@@ -1,0 +1,94 @@
+/* Tips CSS */
+
+
+
+/* Demo tips Section */
+.wrapper .tips-demo {
+	height: 90vh;
+	background: url(../img/micah-hallahan.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	/*display: table;
+	position: relative;*/
+}
+
+.wrapper .tips-demo .demo-tips-con {
+	height: inherit;
+	display: table;
+	padding: 0rem 4rem;
+}
+
+.wrapper .tips-demo .demo-tips-con .demo-tips-row {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.wrapper .tips-demo .demo-tips-con .demo-tips-row .demo-con h1,
+.wrapper .tips-demo .demo-tips-con .demo-tips-row .demo-con p {
+	color: white;
+	text-align: justify;
+}
+
+
+.wrapper .tips-demo .demo-tips-con .demo-tips-row .demo-con h1 {
+	text-align: center;
+}
+
+
+/* Tip List Section */
+.wrapper .tip-list {
+	min-height: 100vh;
+	height: auto;
+	background: url(../img/fire.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.wrapper .tip-list .tip-list-con .title-row {
+	padding: 2rem 0rem;
+}
+
+.wrapper .tip-list .tip-list-con .title-row .title-col h2 {
+	color: white;
+	text-align: center;
+}
+
+.wrapper .tip-list .tip-list-con .list-tips-row .list-tips-col .list-group {
+	padding: 1rem 0rem;
+	opacity: .9;
+}
+
+.wrapper .tip-list .tip-list-con .list-tips-row .list-tips-col .list-group h5 {
+	font-size: 1rem;
+}
+
+.wrapper .tip-list .tip-list-con .list-tips-row .list-tips-col .list-group p {
+	font-size: .8rem;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+/*Desktop*/
+@media only screen and (min-width: 961px) {
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+
+}
+
+

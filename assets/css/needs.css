@@ -1,7 +1,5 @@
 /* Needs Page CSS */
 
-
-
 .wrapper .demo-needs {
 	min-height: 85vh;
 	height: auto;
@@ -110,6 +108,46 @@
 }
 
 
+/* Food Section */
+.wrapper .food-section {
+	height: 100vh;
+	display: table;
+	background-color: #2ca551;
+}
+
+.wrapper .food-section .food-con {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.wrapper .food-section .food-con .food-img {
+	text-align: center;
+}
+
+.wrapper .food-section .food-con .food-img img {
+	height: 30rem;
+}
+
+
+/* Shelter Section */
+.wrapper .shelter-section {
+	height: 100vh;
+	display: table;
+	background-color: #826b4c;
+}
+
+.wrapper .shelter-section .shelter-con {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.wrapper .shelter-section .shelter-con .shelter-img {
+	text-align: center;
+}
+
+.wrapper .shelter-section .shelter-con .shelter-img img {
+	height: 30rem;
+}
 
 
 
