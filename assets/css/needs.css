@@ -163,6 +163,14 @@
 
 /* Tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+	/* Demo Need Elem Section */
+	.wrapper .demo-needs .needs-elem-nav .elem-nav-row .elem-col {
+		padding: 3rem 0rem;
+	}
+
+	.wrapper .elem-text p {
+		text-indent: 1.5rem;
+	}
 
 }
 
@@ -221,7 +229,6 @@
 		text-indent: 1.5rem;
 		font-size: 1rem;
 	}
-
 
 	/* Food Section */
 	.wrapper .food-section .food-con {
