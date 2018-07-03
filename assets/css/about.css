@@ -13,6 +13,11 @@
 	vertical-align: middle;
 }
 
+.wrapper .about-demo .about-demo-con .demo-row .demo-img-col {
+	padding: 0rem 0rem 5rem 0rem;
+}
+
+
 .wrapper .about-demo .about-demo-con .demo-row .demo-text h1,
 .wrapper .about-demo .about-demo-con .demo-row .demo-text p {
 	color: white;
@@ -66,6 +71,16 @@
 
 /* Tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+	/* About Demo Section */
+	.wrapper .about-demo {
+		height: 95vh;
+	}
+
+	/* Contact or Visit Us Section */
+	/* Contact Form */
+	.wrapper .contact-visit .cnt-vst-con .cnt-vst-row .cnt-vst-form-col {
+		padding: 3rem 2rem 1rem 2rem;
+	}
 
 }
 

@@ -65,6 +65,7 @@
 .wrapper .tip-list .tip-list-con .list-tips-row .list-tips-col .list-group p {
 	font-size: .8rem;
 	text-align: justify;
+	text-indent: 1.5rem;
 }
 
 
@@ -83,11 +84,63 @@
 
 /* Tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+	/* Demo Tips Section */
+	.wrapper .tips-demo {
+		height: 95vh;
+	}
+
+	.wrapper .tips-demo .demo-tips-con .demo-tips-row .demo-con h1 {
+		font-size: 3.2rem;
+	}
+
+	.wrapper .tips-demo .demo-tips-con .demo-tips-row .demo-con p {
+		font-size: 1.4rem;
+   		text-indent: 2rem;
+	}
 
 }
 
+
 /*Mobile*/
 @media only screen and (max-width: 400px) {
+	/* Demo Tips Section */
+	.wrapper .tips-demo .demo-tips-con {
+		padding: 0rem .2rem;
+	}
+	
+	.wrapper .tips-demo .demo-tips-con .demo-tips-row .demo-con p {
+		font-size: .8rem;
+		text-indent: 2rem;
+		line-height: 1.2rem;
+	}
+
+	/* Tip List Section */
+	.wrapper .tip-list .tip-list-con .title-row {
+		padding: 1rem 0rem;
+	}
+
+	.wrapper .tip-list .tip-list-con .title-row .title-col h2 {
+		font-size: 1.5rem;
+	}
+
+	.wrapper .tip-list .tip-list-con .list-tips-row .list-tips-col {
+		padding: 0rem;
+	}
+
+	.wrapper .tip-list .tip-list-con .list-tips-row .list-tips-col .list-group {
+		padding: .8rem 0rem;
+		opacity: .9;
+	}
+
+	.wrapper .tip-list .tip-list-con .list-tips-row .list-tips-col .list-group h5 {
+		text-align: center;
+	}
+
+	.wrapper .tip-list .tip-list-con .list-tips-row .list-tips-col .list-group p {
+		text-indent: 1rem;
+		line-height: 1.3rem;
+	}
+
 
 }
 

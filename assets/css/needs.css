@@ -68,7 +68,6 @@
 	display: table-cell;
 	vertical-align: middle;
 	background-color: #0095cc;
-
 }
 
 .wrapper .water-section .water-con .water-img {
@@ -79,7 +78,10 @@
 	height: 30rem;
 }
 
-.wrapper .elem-text h2,
+.wrapper .elem-text h2{
+	color: white;
+}
+
 .wrapper .elem-text p {
 	color: white;
 	text-align: justify;
@@ -166,5 +168,98 @@
 
 /*Mobile*/
 @media only screen and (max-width: 400px) {
+	/* Demo Need Elem Section */
+	.wrapper .demo-needs .needs-elem-nav .title-row .title-col h1 {
+		font-size: 1.5rem;
+	}
+
+	.wrapper .demo-needs .needs-elem-nav .title-row .title-col p {
+		margin-bottom: 0;
+		padding: 1rem 0rem;
+		font-size: .8rem;
+	}
+
+	.wrapper .demo-needs .needs-elem-nav .elem-nav-row .elem-col {
+		padding: 1rem;
+	}
+
+	/* Water Section */
+	.wrapper .water-section .water-con {
+		padding: 2rem 0rem;
+	}
+	.wrapper .water-section .water-con .water-img img{
+		display: none;
+	}
+
+	.wrapper .elem-text h2 {
+		font-size: 1.8rem;
+		text-align: center;
+	}
+
+	.wrapper .elem-text p {
+		padding: 1rem 0rem;
+		text-indent: 1.5rem;
+		font-size: 1rem;
+	}
+
+
+	/* Fire Section */
+	.wrapper .fire-section .fire-con {
+		padding: 2rem 0rem;
+	}
+	.wrapper .fire-section .fire-con .fire-img img{
+		display: none;
+	}
+
+	.wrapper .elem-text h2 {
+		font-size: 1.8rem;
+		text-align: center;
+	}
+
+	.wrapper .elem-text p {
+		padding: 1rem 0rem;
+		text-indent: 1.5rem;
+		font-size: 1rem;
+	}
+
+
+	/* Food Section */
+	.wrapper .food-section .food-con {
+		padding: 2rem 0rem;
+	}
+	.wrapper .food-section .food-con .food-img img{
+		display: none;
+	}
+
+	.wrapper .elem-text h2 {
+		font-size: 1.8rem;
+		text-align: center;
+	}
+
+	.wrapper .elem-text p {
+		padding: 1rem 0rem;
+		text-indent: 1.5rem;
+		font-size: 1rem;
+	}
+
+
+	/* Shelter Section */
+	.wrapper .shelter-section .shelter-con {
+		padding: 2rem 0rem;
+	}
+	.wrapper .shelter-section .shelter-con .shelter-img img{
+		display: none;
+	}
+
+	.wrapper .elem-text h2 {
+		font-size: 1.8rem;
+		text-align: center;
+	}
+
+	.wrapper .elem-text p {
+		padding: 1rem 0rem;
+		text-indent: 1.5rem;
+		font-size: 1rem;
+	}
 
 }
