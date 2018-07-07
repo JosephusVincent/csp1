@@ -32,8 +32,6 @@ html, body {
 }
 
 
-
-
 @media only screen and (max-width: 756px) {
 	.content h1 {
 		font-size: 250%;
