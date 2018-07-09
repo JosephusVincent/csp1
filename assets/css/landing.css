@@ -11,8 +11,10 @@ html, body {
 }
 
 .intro {
-	height: 100vh;
+	height: 100%;
 	width: 100%;
+	-webkit-background: url(../img/rawpixel.jpg) no-repeat 50% 50%;
+	-moz-background: url(../img/rawpixel.jpg) no-repeat 50% 50%;
 	background: url(../img/rawpixel.jpg) no-repeat 50% 50%;
 	background-size: cover;
 	display: table;
