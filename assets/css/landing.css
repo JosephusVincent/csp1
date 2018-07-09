@@ -1,31 +1,44 @@
 /* Landing Page CSS */
 * {
 	box-sizing: 0;
+	-webkit-box-sizing: 0;
 }
 
 html, body {
 	margin: 0;
+	-webkit-margin: 0;
 	padding: 0;
+	-webkit-padding: 0;
 	height: 100%;
+	-webkit-height: 100%;
 	width: 100%;
+	-webkit-width: 100%;
 }
 
 .intro {
 	height: 100%;
 	width: 100%;
-	-webkit-background: url(../img/rawpixel.jpg) no-repeat 50% 50%;
-	-moz-background: url(../img/rawpixel.jpg) no-repeat 50% 50%;
 	background: url(../img/rawpixel.jpg) no-repeat 50% 50%;
 	background-size: cover;
 	display: table;
 	top: 0;
+	-webkit-height: 100%;
+	-webkit-width: 100%;
+	-webkit-background: url(../img/rawpixel.jpg) no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	-webkit-display: table;
+	-webkit-top: 0;
 }
 
 .intro .inner {
 	display: table-cell;
+	-webkit-display: table-cell;
 	vertical-align: middle;
+	-webkit-vertical-align: middle;
 	text-align: center;
+	-webkit-text-align: center;
 	padding-bottom: 20%;
+	-webkit-padding-bottom: 20%;
 }
 
 .content h1 {
