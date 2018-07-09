@@ -1,14 +1,9 @@
 /* Landing Page CSS */
 * {
-	box-sizing: 0;
-}
-
-html, body {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
-
-
 .intro {
 	height: 100vh;
 	width: 100%;
